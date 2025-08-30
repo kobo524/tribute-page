@@ -31,14 +31,15 @@ body {
     border-bottom: 2px solid #e0e7e0;
 }
 
-.image_container img {
-    width: 200px; 
-    height: 200px;
-    border-radius: 50%;
-    border: 6px solid #005662; 
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    object-fit: cover; 
+.tribute-img {
+  display: block;
+  margin: 20px auto;
+  max-width: 80%;   
+  height: auto;    
+  border-radius: 15px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
 }
+
 
 .Top_section h1 {
     font-family: 'Playfair Display', serif; 
@@ -120,4 +121,5 @@ li {
     .Biographies h3 {
         font-size: 1.8em;
     }
+
 }
