@@ -1,0 +1,123 @@
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #dce9f5; 
+    color: #444; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); 
+}
+
+.content {
+    padding: 20px;
+}
+
+.Top_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e0e7e0;
+}
+
+.image_container img {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid #005662; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    object-fit: cover; 
+}
+
+.Top_section h1 {
+    font-family: 'Playfair Display', serif; 
+    font-size: 3.5em; 
+    font-weight: bold;
+    color: #1a237e; 
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.Top_section h4 {
+    font-size: 1.2em;
+    color: #777;
+    margin-top: 5px;
+}
+
+.About_section h2,
+.Career_as_a_scientist h4,
+.Presidency h4,
+.Personal_life h4,
+.Biographies h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em; 
+    font-weight: 600;
+    color: #004d40;
+    border-left: 4px solid #005662;
+    padding-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1.8; 
+    margin-bottom: 25px;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border-left: 5px solid #005662;
+    font-size: 1.1em;
+}
+
+.image_container1 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.image_container1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+        padding: 15px;
+    }
+.Top_section h1 {
+        font-size: 2.5em;
+    }
+    .About_section h2,
+    .Career_as_a_scientist h4,
+    .Presidency h4,
+    .Personal_life h4,
+    .Biographies h3 {
+        font-size: 1.8em;
+    }
+}
